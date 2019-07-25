@@ -6,6 +6,6 @@ def readfile(path):
         return f.readlines()
 
 if name == "main":
-    file_path = sys.argv[0]
+    file_path = sys.argv[1]
     lines = readfile(file_path)
     print(lines)
