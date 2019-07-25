@@ -1,8 +1,11 @@
+
 import sys
 
 def readfile(path):
-    pass
+    with open (path) as f:
+        return f.readlines()
 
-if __name__ == "__main__":
+if name == "main":
     file_path = sys.argv[0]
     lines = readfile(file_path)
+    print(lines)
