@@ -1,7 +1,9 @@
+
 import sys
 
+
 def readfile(path):
-    with open(path) as f:
+    with open (path) as f:
         return f.readlines()
 
 def translate(lines):
